@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+body {
+    background-color: #171f33;
+    background-position: fixed;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 1.25rem;
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+.hero button{
+    margin: 0 10px;
+    padding: 12px 24px;
+    font-weight: bold;
+}
+#a{
+    background-color: #06b6d4;
+    color: white;
+    border: 2px solid #06b6d4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#b{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #06b6d4;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #06b6d4;
+}
+#contact {
+    text-align: center;
+    margin: 75px;
+}
+.home{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 44px;
+    color: white;
+    text-decoration: none;
+    background-color: #07b7d4;
+    padding: 0px 17px 13px 17px;
+    border-radius: 15px;
+    box-shadow: #07b7d4 0px 10px 50px 1px;
+}
+.input{
+    width: 500px;
+    height: 45px;
+    margin-bottom: 25px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 6px 20px;
+}
+.msg {
+
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 40px 20px 10px;
+}
+#contact button{
+    width: 160px;
+    height: 55px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    background-color: #07b7d4;
+    margin: 20px 0px;
+    border: none;
+}
+button:hover , .input:hover {
+    box-shadow: #07b7d4 0px 10px 50px 1px;
+    transition: all 0.3s ease;
+}
+section i{
+    text-decoration: none;
+    font-size: xx-large;
+    margin:50px 15px 0px 15px;
+}
+section i:hover {
+    color: #07b7d4;
+    transition: all 0.2s ease;
+}
+.LesCards{
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 40px 45px;
+    text-align: center;
+}
+.LesCards .card {
+    
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: #07b7d4 0px 10px 50px 1px;
+}
+.card h5 , p{
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.card button{
+    justify-content: center;
+    background-color: #07b7d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    box-shadow: #07b7d4 0px 10px 50px 1px;
+}
+
+#c:hover , button:hover , .home:hover {
+    background-color: #187e91;
+    transition: all 0.3s ease;
+}
+.cc{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+#c {
+    display: flex;
+    justify-content: center;
+    background-color: #07b7d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-weight: bold;
+    box-shadow: #07b7d4 0px 10px 50px 1px;
+    transition: all 0.3s ease;
+    width: 60%;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.about {
+    padding: 90px;
+    text-align: center;
+}
+.buttun {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.btn {
+    margin: 40px;
+    background-color: #07b7d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-weight: bold;
+    box-shadow: #07b7d4 0px 10px 50px 1px;  
+    transition: all 0.3s ease;
+    height: 50px;
+    width: 320px;
+    font-size: 18px;
+}
